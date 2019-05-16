@@ -10,12 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2) do
+=======
+ActiveRecord::Schema.define(version: 1) do
+>>>>>>> 42f3ab6306725e7fbfc7a5c8f263aefef4783c2d
 
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password"
+<<<<<<< HEAD
     t.float "balance"
+=======
+    t.integer "balance"
+>>>>>>> 42f3ab6306725e7fbfc7a5c8f263aefef4783c2d
   end
 
 end
